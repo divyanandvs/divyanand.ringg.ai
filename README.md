@@ -12,13 +12,19 @@
 
   <h2>🎙 Talk to my AI version</h2>
 
-  <!-- Replace this with Ringg embed -->
-  <iframe 
-    src="YOUR_RINGG_AGENT_URL"
-    width="400" 
-    height="600"
-    style="border: none;">
-  </iframe>
+  <script>
+  function loadAgentsCdn(e,t){let n=document.createElement("link");n.rel="stylesheet",n.type="text/css",n.href=`https://cdn.jsdelivr.net/npm/@desivocal/agents-cdn@${e}/dist/style.css`;var a=document.createElement("script");a.type="text/javascript",a.readyState?a.onreadystatechange=function(){"loaded"!==a.readyState&&"complete"!==a.readyState||(a.onreadystatechange=null,t())}:a.onload=function(){t()},a.src=`https://cdn.jsdelivr.net/npm/@desivocal/agents-cdn@${e}/dist/dv-agent.es.js`,document.getElementsByTagName("head")[0].appendChild(n),document.getElementsByTagName("head")[0].appendChild(a)}
+</script>
+<script>
+  loadAgentsCdn("1.0.20-alpha.59", function () {
+    loadAgent({
+      agentId: "edd51761-1228-42be-b8bc-171f5fecbe75",
+      xApiKey: "YOUR_API_KEY",
+      variables: {"callee_name":"CALLEE_NAME"},
+    });
+  });
+</script>
+
 
   <div style="margin-top: 30px;">
     <p>This agent can:</p>
