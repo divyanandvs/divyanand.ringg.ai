@@ -19,7 +19,7 @@
   loadAgentsCdn("1.0.20-alpha.59", function () {
     loadAgent({
       agentId: "edd51761-1228-42be-b8bc-171f5fecbe75",
-      xApiKey: "YOUR_API_KEY",
+      xApiKey: "e8b2ca28-e6f0-4cc0-8a51-8af576e60ec3",
       variables: {"callee_name":"CALLEE_NAME"},
     });
   });
