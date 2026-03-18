@@ -38,6 +38,16 @@
   <p style="margin-top: 40px;">
     If this was interesting, let’s talk 🙂
   </p>
-<script src="https://fe.fine-tuner.ai/chat-embed.js" data-agent-id="de199229-b8ec-4b7b-94ac-fa8038f0ca60"></script>
+<div style="
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+">
+  <script 
+    src="https://fe.fine-tuner.ai/chat-embed.js" 
+    data-agent-id="de199229-b8ec-4b7b-94ac-fa8038f0ca60">
+  </script>
+</div>
 </body>
 </html>
