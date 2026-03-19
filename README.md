@@ -26,34 +26,7 @@
 </script>
 
 
-  <div style="margin-top: 30px;">
-    <p>This agent can:</p>
-    <ul style="list-style: none;">
-      <li>Explain my experience</li>
-      <li>Share my projects</li>
-      <li>Discuss my research on your company</li>
-    </ul>
-  </div>
-
-  <p style="margin-top: 40px;">
-    If this was interesting, let’s talk 🙂
-  </p>
-<div style="
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 9999;
-">
-  <script 
-    src="https://fe.fine-tuner.ai/chat-embed.js" 
-    data-agent-id="de199229-b8ec-4b7b-94ac-fa8038f0ca60">
-  </script>
-</div>
-</body>
-</html>
-
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
   <title>Divyanand | AI Voice Profile</title>
@@ -63,7 +36,6 @@
     body {
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       margin: 0;
-      padding: 0;
       background: #0f172a;
       color: #e2e8f0;
     }
@@ -74,8 +46,20 @@
       padding: 40px 20px;
     }
 
-    h1, h2 {
+    h1 {
+      font-size: 34px;
+      line-height: 1.2;
       color: #ffffff;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #ffffff;
+    }
+
+    p {
+      color: #94a3b8;
+      line-height: 1.6;
     }
 
     .hero {
@@ -85,11 +69,11 @@
 
     .tag {
       background: #1e293b;
-      display: inline-block;
       padding: 6px 12px;
       border-radius: 20px;
-      font-size: 14px;
+      display: inline-block;
       margin-bottom: 10px;
+      font-size: 14px;
     }
 
     .section {
@@ -103,6 +87,14 @@
       margin-top: 15px;
     }
 
+    ul {
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
     a {
       color: #38bdf8;
       text-decoration: none;
@@ -114,7 +106,11 @@
       font-size: 18px;
     }
 
-    /* Floating voice agent */
+    pre {
+      overflow-x: auto;
+    }
+
+    /* Floating Voice Agent */
     .voice-agent {
       position: fixed;
       bottom: 20px;
@@ -131,89 +127,145 @@
   <!-- HERO -->
   <div class="hero">
     <div class="tag">Built instead of sending a resume</div>
-    <h1>Divyanand V S</h1>
-    <p>AI-first builder | Exploring Voice Agents & Product Thinking</p>
-    <p>🎙 Talk to my AI version (bottom left)</p>
+    <h1>I built an AI version of myself instead of sending a resume</h1>
+    <p>AI-first builder exploring voice agents, workflows, and automation</p>
+    <p>🎙 Talk to my AI (bottom left)</p>
+  </div>
+
+  <!-- CONTEXT -->
+  <div class="section">
+    <h2>This is not a portfolio</h2>
+    <div class="card">
+      <p>Instead of a resume, I built a voice agent that can talk about:</p>
+      <ul>
+        <li>My background and projects</li>
+        <li>My thinking on voice AI</li>
+        <li>My analysis of your product and competitors</li>
+      </ul>
+      <p>Try asking: <strong>"What did he find about our competitors?"</strong></p>
+    </div>
   </div>
 
   <!-- ABOUT -->
   <div class="section">
-    <h2>About Me</h2>
+    <h2>How I think</h2>
     <div class="card">
-      <p>
-        I started out aiming to become a doctor but ended up in IT — and eventually found my interest in building products.
-        I enjoy understanding systems deeply, identifying gaps, and building fast iterations using AI.
-      </p>
-    </div>
-  </div>
-
-  <!-- STORY -->
-  <div class="section">
-    <h2>My Story</h2>
-    <div class="card">
-      <p>
-        From moving out of a small town to working in tech, my journey has been unconventional.
-        I’m currently focused on building AI-native applications and experimenting with agents
-        that can automate workflows and improve user experiences.
-      </p>
+      <p>I like understanding systems deeply, identifying gaps, and building fast iterations.</p>
+      <p>I focus on AI-native applications — especially agents that automate workflows.</p>
+      <p>I don’t just learn tools — I try to understand where the market is going.</p>
     </div>
   </div>
 
   <!-- PROJECTS -->
   <div class="section">
-    <h2>What I’ve Been Building</h2>
+    <h2>What I’ve been building</h2>
     <div class="card">
       <ul>
-        <li>AI-native Dealer Management System (Supabase + Node)</li>
-        <li>Data setup agent for automated testing</li>
-        <li>This voice agent to pitch myself instead of a resume</li>
+        <li><strong>AI-native DMS</strong> — Supabase + Node</li>
+        <li><strong>Data setup agent</strong> — automated test scenarios</li>
+        <li><strong>Voice agent</strong> — interactive resume</li>
       </ul>
     </div>
   </div>
 
   <!-- VIDEO -->
   <div class="section">
-    <h2>Standup / Demo Video</h2>
+    <h2>Quick demo</h2>
     <div class="card">
-      <p>Watch my short standup/demo:</p>
-      <a href="YOUR_VIDEO_LINK_HERE" target="_blank">▶ Watch Video</a>
+      <p>Short walkthrough of how I think and build:</p>
+      <a href="YOUR_VIDEO_LINK" target="_blank">▶ Watch 2-min demo</a>
     </div>
   </div>
 
-  <!-- COMPETITOR ANALYSIS -->
+  <!-- ANALYSIS -->
   <div class="section">
-    <h2>Voice Agent Space – My Analysis</h2>
+    <h2>What I noticed about your space</h2>
     <div class="card">
-      <p><strong>Competitors I explored:</strong></p>
+      <p>I explored the voice AI landscape and where your product fits.</p>
+      <p><strong>Key insight:</strong><br>
+      Voice AI is evolving from conversation → workflows → operational systems</p>
+
       <ul>
-        <li>Vapi</li>
-        <li>Retell AI</li>
-        <li>Other voice infra startups</li>
+        <li>Some tools focus on infra (QA, workflows)</li>
+        <li>Others focus on business use cases (booking, CRM)</li>
+        <li>Your product is strong on usability but can expand deeper</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- DIAGRAM -->
+  <div class="section">
+    <h2>Voice AI Landscape – My View</h2>
+    <p>I mapped the market into 3 layers and where I think things are heading.</p>
+
+    <div class="card">
+<pre>
+                    ┌────────────────────────────┐
+                    │   VOICE AI MARKET EVOLUTION │
+                    └────────────┬───────────────┘
+                                 │
+        ┌────────────────────────┼────────────────────────┐
+        │                        │                        │
+
+┌───────────────┐      ┌──────────────────┐      ┌────────────────────┐
+│   PHASE 1     │      │     PHASE 2      │      │      PHASE 3       │
+│ Voice Layer   │      │ Voice + Workflow │      │ Voice + Infra      │
+└──────┬────────┘      └────────┬─────────┘      └─────────┬──────────┘
+
+   Ringg              Synthflow              Retell AI
+
+     ↓                    ↓                      ↓
+
+ Simple Builder     Business Workflows     Infra + Reliability
+ Good UX            Booking                QA Systems
+ Fast Setup         Call Transfer          Alerts
+                    CRM Integration        Workflow Control
+                    Human-in-loop          Knowledge Systems
+
+---------------------- GAP IN RINGG ----------------------
+
+❌ No QA / Testing  
+❌ Limited workflows  
+❌ No integrations  
+❌ No human escalation  
+❌ No data extraction  
+
+---------------------- OPPORTUNITY ----------------------
+
+→ QA + Testing Layer  
+→ Workflow Engine  
+→ CRM Integrations  
+→ Human Escalation  
+→ Data Extraction  
+</pre>
+    </div>
+
+    <p style="margin-top:10px;">
+      This is my current understanding — I’d love to know where you agree or disagree.
+    </p>
+  </div>
+
+  <!-- OPPORTUNITY -->
+  <div class="section">
+    <h2>What I would build next</h2>
+    <div class="card">
+      <ul>
+        <li>QA + testing layer</li>
+        <li>Workflow engine</li>
+        <li>CRM integrations</li>
+        <li>Human-in-loop escalation</li>
+        <li>Structured data extraction</li>
       </ul>
 
-      <p><strong>Key gaps I observed:</strong></p>
-      <ul>
-        <li>Lack of strong contextual memory across conversations</li>
-        <li>Poor interruption handling in real-time calls</li>
-        <li>Limited personalization for outbound use-cases</li>
-      </ul>
-
-      <p><strong>What I would build:</strong></p>
-      <ul>
-        <li>Memory layer for long-term conversation context</li>
-        <li>Better real-time control + latency optimization</li>
-        <li>Plug-and-play personalization engine for businesses</li>
-      </ul>
+      <p>The opportunity is to evolve from a <strong>voice tool → operational platform</strong>.</p>
     </div>
   </div>
 
   <!-- CTA -->
   <div class="cta">
+    <p>If this resonated, I’d love to build something like this with your team.</p>
     <p>
-      If this was interesting, I’d love to build something like this for your team.
-    </p>
-    <p>
-      📩 your.email@gmail.com  
+      📩 your.email@gmail.com <br>
       🔗 <a href="YOUR_LINKEDIN">LinkedIn</a>
     </p>
   </div>
@@ -226,75 +278,6 @@
     src="https://fe.fine-tuner.ai/chat-embed.js" 
     data-agent-id="de199229-b8ec-4b7b-94ac-fa8038f0ca60">
   </script>
-</div>
-
-
-<div class="section">
-  <h2>Voice AI Landscape – My View</h2>
-
-  <div class="card" style="overflow-x: auto;">
-    <pre style="
-      white-space: pre;
-      font-size: 13px;
-      line-height: 1.4;
-      color: #000000;
-    ">
-
-                    ┌────────────────────────────┐
-                    │   VOICE AI MARKET EVOLUTION │
-                    └────────────┬───────────────┘
-                                 │
-        ┌────────────────────────┼────────────────────────┐
-        │                        │                        │
-
-┌───────────────┐      ┌──────────────────┐      ┌────────────────────┐
-│   PHASE 1     │      │     PHASE 2      │      │      PHASE 3       │
-│ Voice Layer   │      │ Voice + Workflow │      │ Voice + Infra      │
-└──────┬────────┘      └────────┬─────────┘      └─────────┬──────────┘
-       │                         │                          │
-
-   ┌─────────┐            ┌──────────────┐          ┌───────────────┐
-   │ Ringg   │            │ Synthflow    │          │ Retell AI     │
-   └────┬────┘            └──────┬───────┘          └──────┬────────┘
-        │                        │                         │
-
-        ▼                        ▼                         ▼
-
-┌────────────────┐    ┌────────────────────┐     ┌──────────────────────┐
-│ Simple Builder │    │ Business Workflows │     │ Infra + Reliability  │
-│ Good UX        │    │ Booking            │     │ QA Systems           │
-│ Fast Setup     │    │ Call Transfer      │     │ Alerts & Monitoring  │
-└──────┬─────────┘    │ CRM Integration    │     │ Workflow Control     │
-       │              │ Human-in-loop      │     │ Knowledge Systems    │
-       │              └─────────┬──────────┘     └─────────┬────────────┘
-       │                        │                          │
-       ▼                        ▼                          ▼
-
-┌────────────────────────────────────────────────────────────────────┐
-│                         GAP IN RINGG                               │
-├────────────────────────────────────────────────────────────────────┤
-│ ❌ No QA / Testing Layer                                            │
-│ ❌ Limited Workflow Control                                         │
-│ ❌ No CRM / Integrations Ecosystem                                  │
-│ ❌ No Human-in-loop / Escalation                                    │
-│ ❌ No Structured Data Extraction                                    │
-└────────────────────────────────────────────────────────────────────┘
-
-                                 │
-                                 ▼
-
-                 ┌────────────────────────────────┐
-                 │        OPPORTUNITY             │
-                 ├────────────────────────────────┤
-                 │ → Add QA + Testing Layer       │
-                 │ → Build Workflow Engine        │
-                 │ → Add CRM Integrations         │
-                 │ → Enable Human Escalation      │
-                 │ → Add Data Extraction Layer    │
-                 └────────────────────────────────┘
-
-    </pre>
-  </div>
 </div>
 
 </body>
