@@ -228,5 +228,74 @@
   </script>
 </div>
 
+
+<div class="section">
+  <h2>Voice AI Landscape – My View</h2>
+
+  <div class="card" style="overflow-x: auto;">
+    <pre style="
+      white-space: pre;
+      font-size: 13px;
+      line-height: 1.4;
+      color: #cbd5f5;
+    ">
+
+                    ┌────────────────────────────┐
+                    │   VOICE AI MARKET EVOLUTION │
+                    └────────────┬───────────────┘
+                                 │
+        ┌────────────────────────┼────────────────────────┐
+        │                        │                        │
+
+┌───────────────┐      ┌──────────────────┐      ┌────────────────────┐
+│   PHASE 1     │      │     PHASE 2      │      │      PHASE 3       │
+│ Voice Layer   │      │ Voice + Workflow │      │ Voice + Infra      │
+└──────┬────────┘      └────────┬─────────┘      └─────────┬──────────┘
+       │                         │                          │
+
+   ┌─────────┐            ┌──────────────┐          ┌───────────────┐
+   │ Ringg   │            │ Synthflow    │          │ Retell AI     │
+   └────┬────┘            └──────┬───────┘          └──────┬────────┘
+        │                        │                         │
+
+        ▼                        ▼                         ▼
+
+┌────────────────┐    ┌────────────────────┐     ┌──────────────────────┐
+│ Simple Builder │    │ Business Workflows │     │ Infra + Reliability  │
+│ Good UX        │    │ Booking            │     │ QA Systems           │
+│ Fast Setup     │    │ Call Transfer      │     │ Alerts & Monitoring  │
+└──────┬─────────┘    │ CRM Integration    │     │ Workflow Control     │
+       │              │ Human-in-loop      │     │ Knowledge Systems    │
+       │              └─────────┬──────────┘     └─────────┬────────────┘
+       │                        │                          │
+       ▼                        ▼                          ▼
+
+┌────────────────────────────────────────────────────────────────────┐
+│                         GAP IN RINGG                               │
+├────────────────────────────────────────────────────────────────────┤
+│ ❌ No QA / Testing Layer                                            │
+│ ❌ Limited Workflow Control                                         │
+│ ❌ No CRM / Integrations Ecosystem                                  │
+│ ❌ No Human-in-loop / Escalation                                    │
+│ ❌ No Structured Data Extraction                                    │
+└────────────────────────────────────────────────────────────────────┘
+
+                                 │
+                                 ▼
+
+                 ┌────────────────────────────────┐
+                 │        OPPORTUNITY             │
+                 ├────────────────────────────────┤
+                 │ → Add QA + Testing Layer       │
+                 │ → Build Workflow Engine        │
+                 │ → Add CRM Integrations         │
+                 │ → Enable Human Escalation      │
+                 │ → Add Data Extraction Layer    │
+                 └────────────────────────────────┘
+
+    </pre>
+  </div>
+</div>
+
 </body>
 </html>
