@@ -237,7 +237,7 @@
       white-space: pre;
       font-size: 13px;
       line-height: 1.4;
-      color: #cbd5f5;
+      color: #000000;
     ">
 
                     ┌────────────────────────────┐
